@@ -1,0 +1,20 @@
+//open your git bash
+//paste this command
+
+//replace your_email@example.com with your email linked on your github account
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+//Enter thrice and ssh key generated successfully!!
+
+// to copy your ssh copy into github ACCOUNT run this command below  to copy the ssh key into clipboard first
+
+clip < ~/.ssh/id_ed25519.pub
+
+// Now go to your hub account follow the path given below.Remember you are adding public ssh key.
+
+go to your github account >go to setting > go to SSH and GPG keys > go to SSH Keys> click New SSH Key> give title (your choice) and paste the ssh key in key field using ctrl+v> click Add SSH Key 
+
+done !!
+
+Now you can follow all the instruction from basicGitCommand.txt file
